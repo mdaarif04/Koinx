@@ -1,0 +1,29 @@
+.trending-coins {
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.trending-coins ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0;
+}
+
+.trending-coins ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trending-coins ul li img {
+  width: 24px;
+  height: 24px;
+}
+
+.trending-coins ul li span {
+  color: #28a745;
+}
